@@ -1,0 +1,75 @@
+label{
+    font-weight: 600;
+}
+
+.textField{
+    font-weight: 400;
+}
+
+input{
+    display: block;
+    width: 100%;
+    height: 37px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #8A8A8A;
+    margin-top: 5px;
+}
+
+#areatexto{
+    display: block;
+    width: 100%;
+    min-height: 62px;
+    max-height: 250px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #8A8A8A;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+#select{
+    display: block;
+    width: 100px;
+    height: 32px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #8A8A8A;
+    margin-top: 5px;
+    appearance: menulist;
+    font-weight: 400;
+}
+
+#contenedorControl{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#seccionControl{
+    margin-bottom: 25px;
+}
+
+#olvidoContrasena,#tieneCuenta{
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 9px;
+    text-decoration: none;
+    color: var(--color-primario);
+}
+
+#errorControl{
+    font-size: 1.4rem;
+    color: red;
+    display: block;
+    margin-top: 3px;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}

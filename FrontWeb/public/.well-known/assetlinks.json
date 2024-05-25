@@ -1,0 +1,5 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "android_app", "package_name": "com.splitit.splitit",
+                 "sha256_cert_fingerprints": ["D9:F0:77:99:96:54:D2:23:45:4D:8F:AD:DA:45:78:DE:31:6A:7D:F1:4C:7C:E4:FE:DF:A7:94:8C:D9:7B:EC:FD"] }
+  }]
